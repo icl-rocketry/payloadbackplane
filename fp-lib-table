@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "SFMC-110-01-L-D")(type "KiCad")(uri "${KIPRJMOD}/SFMC-110-01-L-D")(options "")(descr ""))
+)

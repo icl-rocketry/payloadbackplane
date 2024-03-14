@@ -1,0 +1,5 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "SFM-120-02-XXX-D-DS")(type "Legacy")(uri "${KIPRJMOD}/SFM-120-02-XXX-D-DS/SFM-120-02-XXX-D-DS.lib")(options "")(descr ""))
+  (lib (name "SFM-110-02-X-D-DS")(type "Legacy")(uri "${KIPRJMOD}/SFM-110-02-XXX-D-DS/SFM-110-02-X-D-DS.lib")(options "")(descr ""))
+)
