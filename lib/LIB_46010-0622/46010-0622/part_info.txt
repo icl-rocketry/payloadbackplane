@@ -1,0 +1,9 @@
+Manufacturer=Molex
+PartNumber=46010-0622
+PartCategory=Connector
+PackageCategory=Other
+PinCount=6
+Version=1.1
+Released=2022-02-20 17:09:07
+Downloaded=2024-05-18 21:01:59
+3D=Y

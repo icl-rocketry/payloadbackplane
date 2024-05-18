@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART '46010_0622'
+CLASS = IO
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Molex", "46010-0622" (!) = "", "46010-06YY", "Other", "538-46010-0622", "https://www.mouser.com/Search/Refine.aspx?Keyword=538-46010-0622", "Mini-Fit Plus PCB Receptacle, 4.20mm Pitch, Dual Row, Vertical, Blind Mating, 6 Circuits, with Snap-in Plastic Peg PCB Lock, PA Polyamide Nylon 6/6, UL 94V-2", "https://componentsearchengine.com/Datasheets/1/46010-0622.pdf", "14.1 mm"
+END_PART
+
+END.
