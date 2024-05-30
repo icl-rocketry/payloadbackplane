@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART '212520_1006'
+CLASS = IO
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Molex", "212520-1006" (!) = "", "212520-1006", "Other", "538-212520-1006", "https://www.mouser.co.uk/ProductDetail/Molex/212520-1006?qs=pUKx8fyJudA8jKWmA%2FIrSg%3D%3D", "Mini-Fit Max Vertical Header, Dual Row, 12 Circuits, Tin (Sn) Plating, Black", "https://www.molex.com/pdm_docs/sd/2125201006_sd.pdf", "13.6 mm"
+END_PART
+
+END.
