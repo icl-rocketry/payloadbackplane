@@ -189,6 +189,281 @@
 				)
 			)
 		)
+		(symbol "Simulation_SPICE:SWITCH"
+			(pin_numbers hide)
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "S"
+				(at 2.54 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "SWITCH"
+				(at 2.54 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#subsec_Switches"
+				(at 0 16.51 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Voltage controlled switch symbol for simulation only"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Device" "SW"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Type" "V"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Params" "thr=0 ron=1"
+				(at 2.54 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Sim.Pins" "1=no+ 2=no- 3=ctrl+ 4=ctrl-"
+				(at 0 13.97 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "simulation"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SWITCH_0_1"
+				(circle
+					(center 0 -2.032)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.254 1.524) (xy 1.778 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 2.032)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "SWITCH_1_1"
+				(circle
+					(center -5.08 0)
+					(radius 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -4.826 -3.81) (xy -4.318 -3.81)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -4.826 3.81) (xy -4.318 3.81)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -4.572 4.064) (xy -4.572 3.556)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 0) (xy 0.889 0)
+					)
+					(stroke
+						(width 0)
+						(type dash)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(text "V"
+					(at -5.08 0 0)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 5.08 270)
+					(length 2.54)
+					(name "N+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -5.08 90)
+					(length 2.54)
+					(name "N-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -5.08 5.08 270)
+					(length 2.54)
+					(name "C+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -5.08 -5.08 90)
+					(length 2.54)
+					(name "C-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "iclr:XT60PW-F"
 			(pin_names
 				(offset 1.016)
@@ -586,18 +861,18 @@
 		)
 	)
 	(junction
-		(at 46.99 64.77)
+		(at 55.88 45.72)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c92c2cf3-d561-43f8-8c5e-89d4e241d264")
 	)
 	(no_connect
-		(at 205.74 74.93)
+		(at 160.02 55.88)
 		(uuid "321e5edd-eef0-4c5e-9217-7c56c3634156")
 	)
 	(wire
 		(pts
-			(xy 29.21 64.77) (xy 46.99 64.77)
+			(xy 38.1 45.72) (xy 55.88 45.72)
 		)
 		(stroke
 			(width 0)
@@ -607,7 +882,7 @@
 	)
 	(wire
 		(pts
-			(xy 46.99 64.77) (xy 46.99 63.5)
+			(xy 55.88 45.72) (xy 55.88 44.45)
 		)
 		(stroke
 			(width 0)
@@ -617,7 +892,7 @@
 	)
 	(wire
 		(pts
-			(xy 35.56 72.39) (xy 59.69 72.39)
+			(xy 44.45 53.34) (xy 68.58 53.34)
 		)
 		(stroke
 			(width 0)
@@ -627,7 +902,7 @@
 	)
 	(wire
 		(pts
-			(xy 46.99 64.77) (xy 59.69 64.77)
+			(xy 55.88 45.72) (xy 68.58 45.72)
 		)
 		(stroke
 			(width 0)
@@ -637,7 +912,7 @@
 	)
 	(wire
 		(pts
-			(xy 35.56 67.31) (xy 59.69 67.31)
+			(xy 44.45 48.26) (xy 68.58 48.26)
 		)
 		(stroke
 			(width 0)
@@ -646,8 +921,8 @@
 		(uuid "c832cca0-7318-450f-9d4d-81c2dfcba153")
 	)
 	(rectangle
-		(start 17.78 53.34)
-		(end 88.9 78.74)
+		(start 26.67 34.29)
+		(end 97.79 59.69)
 		(stroke
 			(width 0)
 			(type default)
@@ -658,8 +933,8 @@
 		(uuid 4b761c7e-6261-4cbb-8904-f22ec874a462)
 	)
 	(rectangle
-		(start 161.29 53.34)
-		(end 213.36 78.74)
+		(start 115.57 34.29)
+		(end 167.64 59.69)
 		(stroke
 			(width 0)
 			(type default)
@@ -671,7 +946,7 @@
 	)
 	(text "XT60 connector\n"
 		(exclude_from_sim no)
-		(at 17.78 53.34 0)
+		(at 26.67 34.29 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -682,7 +957,7 @@
 	)
 	(text "Mounting holes and logo\n"
 		(exclude_from_sim no)
-		(at 161.29 53.34 0)
+		(at 115.57 34.29 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -702,7 +977,7 @@
 		(uuid "e231b8ef-2a19-4a4d-ada4-d523e298c075")
 	)
 	(label "GND"
-		(at 35.56 72.39 180)
+		(at 44.45 53.34 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -713,7 +988,7 @@
 		(uuid "023bd4eb-7579-4482-872d-55a6a08fd248")
 	)
 	(label "GND"
-		(at 35.56 67.31 180)
+		(at 44.45 48.26 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -725,7 +1000,7 @@
 	)
 	(symbol
 		(lib_id "iclr:XT60PW-F")
-		(at 69.85 67.31 0)
+		(at 78.74 48.26 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -734,7 +1009,7 @@
 		(fields_autoplaced yes)
 		(uuid "14d9132c-781e-4c3d-ac63-d2d88e00dc04")
 		(property "Reference" "J5"
-			(at 76.2 67.31 0)
+			(at 85.09 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -743,7 +1018,7 @@
 			)
 		)
 		(property "Value" "XT60PW-F"
-			(at 76.2 69.85 0)
+			(at 85.09 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -752,7 +1027,7 @@
 			)
 		)
 		(property "Footprint" "iclr:AMASS_XT60PW-F"
-			(at 69.85 67.31 0)
+			(at 78.74 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -762,7 +1037,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 69.85 67.31 0)
+			(at 78.74 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -771,7 +1046,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 69.85 67.31 0)
+			(at 78.74 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -780,7 +1055,7 @@
 			)
 		)
 		(property "PARTREV" "V1.2"
-			(at 69.85 67.31 0)
+			(at 78.74 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -790,7 +1065,7 @@
 			)
 		)
 		(property "STANDARD" "Manufacturer Recommendations"
-			(at 69.85 67.31 0)
+			(at 78.74 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -800,7 +1075,7 @@
 			)
 		)
 		(property "MAXIMUM_PACKAGE_HEIGHT" "8.4 mm"
-			(at 69.85 67.31 0)
+			(at 78.74 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -810,7 +1085,7 @@
 			)
 		)
 		(property "MANUFACTURER" "AMASS"
-			(at 69.85 67.31 0)
+			(at 78.74 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -842,7 +1117,7 @@
 	)
 	(symbol
 		(lib_id "power:+12V")
-		(at 29.21 64.77 90)
+		(at 38.1 45.72 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -851,7 +1126,7 @@
 		(fields_autoplaced yes)
 		(uuid "390cbdce-5cfa-44f3-bc9f-09ab93da90f7")
 		(property "Reference" "#PWR01"
-			(at 33.02 64.77 0)
+			(at 41.91 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -860,7 +1135,7 @@
 			)
 		)
 		(property "Value" "+12V"
-			(at 25.4 64.77 90)
+			(at 34.29 45.72 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -869,7 +1144,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 29.21 64.77 0)
+			(at 38.1 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -878,7 +1153,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 29.21 64.77 0)
+			(at 38.1 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -887,7 +1162,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 29.21 64.77 0)
+			(at 38.1 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -909,7 +1184,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole_Pad")
-		(at 205.74 72.39 0)
+		(at 160.02 53.34 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -917,7 +1192,7 @@
 		(dnp no)
 		(uuid "41e750cd-9ee4-48fb-9e2f-a4bdf58b6029")
 		(property "Reference" "LOGO1"
-			(at 207.01 64.77 0)
+			(at 161.29 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -926,7 +1201,7 @@
 			)
 		)
 		(property "Value" "ICLR LOGO"
-			(at 210.82 67.31 0)
+			(at 165.1 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -935,7 +1210,7 @@
 			)
 		)
 		(property "Footprint" "iclr:iclr_logo_estd2018_10mm"
-			(at 205.74 72.39 0)
+			(at 160.02 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -944,7 +1219,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 205.74 72.39 0)
+			(at 160.02 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -953,7 +1228,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 205.74 72.39 0)
+			(at 160.02 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -981,7 +1256,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
-		(at 163.83 63.5 0)
+		(at 118.11 44.45 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -990,7 +1265,7 @@
 		(fields_autoplaced yes)
 		(uuid "5dc61f16-d9a9-434c-8360-164bf15251a3")
 		(property "Reference" "H2"
-			(at 166.37 62.23 0)
+			(at 120.65 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -999,7 +1274,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 166.37 64.77 0)
+			(at 120.65 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1008,7 +1283,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
-			(at 163.83 63.5 0)
+			(at 118.11 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1017,7 +1292,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 163.83 63.5 0)
+			(at 118.11 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1026,7 +1301,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 163.83 63.5 0)
+			(at 118.11 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1045,7 +1320,7 @@
 	)
 	(symbol
 		(lib_id "power:PWR_FLAG")
-		(at 46.99 63.5 0)
+		(at 55.88 44.45 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1054,7 +1329,7 @@
 		(fields_autoplaced yes)
 		(uuid "5f8d6d0a-89aa-40e6-adf5-5ef2c2a6e5de")
 		(property "Reference" "#FLG01"
-			(at 46.99 61.595 0)
+			(at 55.88 42.545 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1063,7 +1338,7 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 46.99 58.42 0)
+			(at 55.88 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1071,7 +1346,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 46.99 63.5 0)
+			(at 55.88 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1080,7 +1355,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 46.99 63.5 0)
+			(at 55.88 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1089,7 +1364,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 46.99 63.5 0)
+			(at 55.88 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1110,8 +1385,120 @@
 		)
 	)
 	(symbol
+		(lib_id "Simulation_SPICE:SWITCH")
+		(at 96.52 78.74 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6662a5f7-11e0-4e07-bcf7-1a178e006ba8")
+		(property "Reference" "S1"
+			(at 99.06 76.0729 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SWITCH"
+			(at 99.06 78.6129 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 96.52 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#subsec_Switches"
+			(at 96.52 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Voltage controlled switch symbol for simulation only"
+			(at 96.52 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "SW"
+			(at 96.52 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" "V"
+			(at 96.52 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Params" "thr=0 ron=1"
+			(at 99.06 81.1529 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Sim.Pins" "1=no+ 2=no- 3=ctrl+ 4=ctrl-"
+			(at 96.52 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "5ee68ec3-6718-4833-8fbb-384fdfc1b0b3")
+		)
+		(pin "1"
+			(uuid "1335592c-5452-4b9a-b9ee-c7c257211e3b")
+		)
+		(pin "2"
+			(uuid "a88635e0-4270-4eba-b413-e310658e5129")
+		)
+		(pin "4"
+			(uuid "b173d977-2455-4928-a0b9-faf68a83c469")
+		)
+		(instances
+			(project "backplane"
+				(path "/640a03fe-ac0a-4bfe-bee3-76739a7e73b1"
+					(reference "S1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Mechanical:MountingHole")
-		(at 163.83 76.2 0)
+		(at 118.11 57.15 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1120,7 +1507,7 @@
 		(fields_autoplaced yes)
 		(uuid "6dda8bbd-1dcf-4d81-8339-d439fb334f26")
 		(property "Reference" "H4"
-			(at 166.37 74.93 0)
+			(at 120.65 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1129,7 +1516,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 166.37 77.47 0)
+			(at 120.65 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1138,7 +1525,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
-			(at 163.83 76.2 0)
+			(at 118.11 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1147,7 +1534,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 163.83 76.2 0)
+			(at 118.11 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1156,7 +1543,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 163.83 76.2 0)
+			(at 118.11 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1175,7 +1562,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
-		(at 163.83 69.85 0)
+		(at 118.11 50.8 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1184,7 +1571,7 @@
 		(fields_autoplaced yes)
 		(uuid "a637efac-7cb4-461b-8d6d-ffb33a76ab23")
 		(property "Reference" "H3"
-			(at 166.37 68.58 0)
+			(at 120.65 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1193,7 +1580,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 166.37 71.12 0)
+			(at 120.65 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1202,7 +1589,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
-			(at 163.83 69.85 0)
+			(at 118.11 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1211,7 +1598,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 163.83 69.85 0)
+			(at 118.11 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1220,7 +1607,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 163.83 69.85 0)
+			(at 118.11 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1239,7 +1626,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
-		(at 163.83 57.15 0)
+		(at 118.11 38.1 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1248,7 +1635,7 @@
 		(fields_autoplaced yes)
 		(uuid "a833eafa-65ee-4a9c-8820-7326412dc5f2")
 		(property "Reference" "H1"
-			(at 166.37 55.88 0)
+			(at 120.65 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1257,7 +1644,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 166.37 58.42 0)
+			(at 120.65 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1266,7 +1653,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
-			(at 163.83 57.15 0)
+			(at 118.11 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1275,7 +1662,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 163.83 57.15 0)
+			(at 118.11 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1284,7 +1671,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 163.83 57.15 0)
+			(at 118.11 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
