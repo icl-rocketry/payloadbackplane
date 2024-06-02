@@ -58,7 +58,14 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        "lib_footprint_mismatch|95900126|75900000|a75a4f4e-65d7-48fb-b1f0-abe4b86d52c2|00000000-0000-0000-0000-000000000000",
+        "missing_courtyard|95900000|75900000|a75a4f4e-65d7-48fb-b1f0-abe4b86d52c2|00000000-0000-0000-0000-000000000000",
+        "silk_edge_clearance|87000000|103150000|33ac4ef8-1f6d-42ea-8a89-268ee8eb874c|fe671497-775d-4320-8ed9-e871cddda9f0",
+        "silk_edge_clearance|87000000|118650000|33ac4ef8-1f6d-42ea-8a89-268ee8eb874c|6e7e2e87-188c-4e60-841a-668622f483d4",
+        "unconnected_items|84300000|104150000|e1b4298e-8b86-4514-8e17-a77ed5e2c717|706ed7ea-11e2-4be4-8b68-ed3afb9c1f43",
+        "unconnected_items|84300000|117650000|3299777d-e315-4c69-b00a-0c4a4a29bc88|b232ba0c-332c-4862-8f31-57dd46b53867"
+      ],
       "meta": {
         "version": 2
       },
@@ -75,7 +82,7 @@
         "duplicate_footprints": "error",
         "extra_footprint": "error",
         "footprint": "error",
-        "footprint_symbol_mismatch": "warning",
+        "footprint_symbol_mismatch": "error",
         "footprint_type_mismatch": "error",
         "hole_clearance": "error",
         "hole_near_hole": "error",
@@ -85,17 +92,17 @@
         "items_not_allowed": "error",
         "length_out_of_range": "error",
         "lib_footprint_issues": "warning",
-        "lib_footprint_mismatch": "ignore",
+        "lib_footprint_mismatch": "error",
         "malformed_courtyard": "warning",
         "microvia_drill_out_of_range": "error",
-        "missing_courtyard": "ignore",
+        "missing_courtyard": "error",
         "missing_footprint": "error",
         "net_conflict": "error",
-        "npth_inside_courtyard": "ignore",
+        "npth_inside_courtyard": "error",
         "padstack": "error",
-        "pth_inside_courtyard": "ignore",
+        "pth_inside_courtyard": "error",
         "shorting_items": "error",
-        "silk_edge_clearance": "ignore",
+        "silk_edge_clearance": "error",
         "silk_over_copper": "warning",
         "silk_overlap": "warning",
         "skew_out_of_range": "error",
